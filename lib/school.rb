@@ -20,7 +20,7 @@ class School
 
   def sort
     @roster.map { |name,grade|
-      grade = grade.sort
+      @roster[grade] = name.sort
     }
     @roster.sort.to_h
   end
