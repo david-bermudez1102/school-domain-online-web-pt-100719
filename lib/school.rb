@@ -22,7 +22,7 @@ class School
     @roster.map { |name,grade|
       grade = grade.sort
     }
-    @roster
+    @roster.sort.to_h
   end
 
 end
