@@ -4,6 +4,7 @@ class School
 
   def initialized(school,roster={})
     @school = school
+    @roster = {}
   end
 
 end
