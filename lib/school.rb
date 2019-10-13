@@ -22,6 +22,7 @@ class School
     @roster.map { |name,grade|
       grade = grade.sort
     }
+    @roster
   end
-
+  
 end
