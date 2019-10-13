@@ -19,8 +19,8 @@ class School
   end
 
   def sort
-    @roster.map { |name,grade|
-      @roster[grade] = grade.sort
+    @roster.map { |grade,name|
+      @roster[grade] = name.sort
     }
     @roster.sort.to_h
   end
